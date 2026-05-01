@@ -159,11 +159,13 @@ h = h / height
 ## 7. Results / Output
 
 ###  Sample Outputs
-<img width="793" height="602" alt="output" src="https://github.com/user-attachments/assets/a15dc4f5-652b-4b7d-aab7-82a198ac2881" />
+<img width="261" height="210" alt="output" src="https://github.com/user-attachments/assets/a15dc4f5-652b-4b7d-aab7-82a198ac2881" />
 
 <img width="261" height="210" alt="lossVs Epoch" src="https://github.com/user-attachments/assets/fa7393a0-944f-4726-84f6-a8471a7a5141" />
-<img width="229" height="191" alt="maPVsEpoch" src="https://github.com/user-attachments/assets/69fb13e9-4e8f-4580-be76-547f75a25a98" />
 
+<img width="261" height="210" alt="maPVsEpoch" src="https://github.com/user-attachments/assets/69fb13e9-4e8f-4580-be76-547f75a25a98" />
+
+<img width="261" height="210" alt="precVsRecall" src="https://github.com/user-attachments/assets/22d782d0-3ebb-4ba1-8a40-8783d81193e7" />
 
 ####  Detection + Intrusion Alert
 
@@ -171,7 +173,7 @@ h = h / height
 * Threat level displayed (HIGH)
 * Distance and speed shown
 
-#### 📊 Dashboard Logs
+#### Dashboard Logs
 
 * Intrusion logs stored and displayed in table format
 * Columns:
@@ -181,9 +183,12 @@ h = h / height
   * Distance
   * Speed
 
+    <img width="261" height="210" alt="logs" src="https://github.com/user-attachments/assets/595a606a-a7db-4b62-943c-9b34706dc51a" />
+
+
 ---
 
-### ⚡ Performance Metrics
+### Performance Metrics
 
 * FPS: **10–30** (depends on hardware)
 * Real-time processing supported
@@ -191,7 +196,7 @@ h = h / height
 
 ---
 
-### 📌 Observations
+### Observations
 
 * Works well for visible drones
 * Struggles with:
@@ -204,7 +209,7 @@ h = h / height
 
 ## 8. Setup Instructions
 
-### ⚙️ Installation
+### Installation
 
 ```bash
 git clone https://github.com/NKGarg1305/drone-intrusion-detection.git
@@ -240,7 +245,7 @@ run_pipeline("webcam", 0)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 drone_intrusion/
@@ -262,10 +267,10 @@ drone_intrusion/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Naitik Garg**
-CSE, Thapar Institute of Engineering & Technology
+AIML, Thapar Institute of Engineering & Technology
 
 ---
 
