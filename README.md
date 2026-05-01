@@ -1,4 +1,4 @@
-# 🚁 Drone Intrusion Detection and Tracking System
+#Drone Intrusion Detection and Tracking System
 
 ---
 
@@ -41,7 +41,7 @@ This project solves the above problem using deep learning and computer vision te
 
 ## 4. Methodology / Approach
 
-### 🔄 System Pipeline
+### System Pipeline
 
 ```text
 Input → Preprocessing → YOLOv8 Detection → DeepSORT Tracking → 
@@ -50,7 +50,7 @@ Distance & Velocity → Geofence Check → Alert → Output
 
 ---
 
-### 📌 Explanation of Each Stage
+### Explanation of Each Stage
 
 **1. Input**
 
@@ -99,7 +99,7 @@ Distance & Velocity → Geofence Check → Alert → Output
 
 ---
 
-### 🧠 Architecture
+### Architecture
 
 * Backbone → Feature extraction
 * Neck → Feature aggregation
@@ -109,13 +109,13 @@ Distance & Velocity → Geofence Check → Alert → Output
 
 ## 6. Training Details
 
-### 📊 Dataset
+### Dataset
 
 * **Anti-UAV Dataset** (KaggleHub)
 
 ---
 
-### 🔧 Data Preparation (from your training code)
+### Data Preparation (from your training code)
 
 * Extracted frames from videos
 * Skipped frames without drones using `exist` flag
@@ -133,14 +133,14 @@ h = h / height
 
 ---
 
-### 📂 Dataset Split
+###  Dataset Split
 
 * 80% Training
 * 20% Validation
 
 ---
 
-### ⚙️ Training Configuration
+###  Training Configuration
 
 * Model: YOLOv8n
 * Epochs: 30
@@ -149,7 +149,7 @@ h = h / height
 
 ---
 
-### 📈 Training Output
+###  Training Output
 
 * Model saved as: `best.pt`
 * Used for inference pipeline
@@ -158,9 +158,14 @@ h = h / height
 
 ## 7. Results / Output
 
-### 📸 Sample Outputs
+###  Sample Outputs
+<img width="793" height="602" alt="output" src="https://github.com/user-attachments/assets/a15dc4f5-652b-4b7d-aab7-82a198ac2881" />
 
-#### 🔍 Detection + Intrusion Alert
+<img width="261" height="210" alt="lossVs Epoch" src="https://github.com/user-attachments/assets/fa7393a0-944f-4726-84f6-a8471a7a5141" />
+<img width="229" height="191" alt="maPVsEpoch" src="https://github.com/user-attachments/assets/69fb13e9-4e8f-4580-be76-547f75a25a98" />
+
+
+####  Detection + Intrusion Alert
 
 * Drone detected with bounding box
 * Threat level displayed (HIGH)
