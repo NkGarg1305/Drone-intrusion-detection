@@ -159,7 +159,7 @@ h = h / height
 ## 7. Results / Output
 
 ###  Sample Outputs
-<img width="500" height="210" alt="output" src="https://github.com/user-attachments/assets/a15dc4f5-652b-4b7d-aab7-82a198ac2881" />
+<img width="261" height="210" alt="output" src="https://github.com/user-attachments/assets/a15dc4f5-652b-4b7d-aab7-82a198ac2881" />
 
 <img width="261" height="210" alt="lossVs Epoch" src="https://github.com/user-attachments/assets/fa7393a0-944f-4726-84f6-a8471a7a5141" /><img width="261" height="210" alt="maPVsEpoch" src="https://github.com/user-attachments/assets/69fb13e9-4e8f-4580-be76-547f75a25a98" /><img width="261" height="210" alt="precVsRecall" src="https://github.com/user-attachments/assets/22d782d0-3ebb-4ba1-8a40-8783d81193e7" />
 
